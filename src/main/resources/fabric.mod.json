@@ -28,6 +28,7 @@
   "depends": {
     "fabricloader": "*",
     "fabric": "*",
+    "alinlib": "*",
     "minecraft": ">=1.21"
   }
 }
