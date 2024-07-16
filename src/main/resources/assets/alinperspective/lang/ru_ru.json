@@ -1,0 +1,9 @@
+{
+  "alinperspective": "AlinPerspective",
+  "alinperspective.toggle": "Переключить режим",
+  "alinperspective.rotatePlayer": "Вращать игрока",
+
+  "alinperspective.config": "Конфигурация",
+  "alinperspective.config.enable": "Включить мод",
+  "alinperspective.config.enable.player_rotate": "Включить вращение игрока"
+}

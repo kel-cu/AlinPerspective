@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "ru.kelcuprum.alinperspective.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+  ],
+  "client": [
+    "CameraMixin",
+    "MouseMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

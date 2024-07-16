@@ -1,0 +1,9 @@
+{
+  "alinperspective": "AlinPerspective",
+  "alinperspective.toggle": "Toggle Mode",
+  "alinperspective.rotatePlayer": "Rotate Player",
+
+  "alinperspective.config": "Configuration",
+  "alinperspective.config.enable": "Enable Mod",
+  "alinperspective.config.enable.player_rotate": "Enable Player Rotation"
+}
