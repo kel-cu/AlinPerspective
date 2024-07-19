@@ -3,7 +3,7 @@
   "id": "alinperspective",
   "version": "${version}",
   "name": "AlinPerspective",
-  "description": "Mod that allows you to rotate the camera 360 from third person",
+  "description": "Mod that allows you to rotate the camera 360° from third person",
   "authors": [
     "Kel Cuprum"
   ],

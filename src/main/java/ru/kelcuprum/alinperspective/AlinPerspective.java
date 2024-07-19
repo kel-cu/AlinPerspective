@@ -27,7 +27,7 @@ public class AlinPerspective implements ClientModInitializer {
 
         rotatePlayer = KeyMappingHelper.register(new KeyMapping(
                 "alinperspective.rotatePlayer",
-                GLFW.GLFW_KEY_RIGHT_ALT,
+                GLFW.GLFW_KEY_LEFT_ALT,
                 "alinperspective"
         ));
         ClientTickEvents.START_CLIENT_TICK.register((s) -> {

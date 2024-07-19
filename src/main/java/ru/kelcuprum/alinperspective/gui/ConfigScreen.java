@@ -13,8 +13,11 @@ public class ConfigScreen {
         ConfigScreenBuilder builder = new ConfigScreenBuilder(parent, Component.translatable("alinperspective"))
                 .addPanelWidget(new ButtonBuilder(Component.translatable("alinperspective.config")));
         builder.addWidget(new TextBox(Component.translatable("alinperspective.config")))
-                .addWidget(new ButtonBooleanBuilder(Component.translatable("alinperspective.config.enable"), false).setConfig(AlinPerspective.config, "ENABLE"))
-                .addWidget(new ButtonBooleanBuilder(Component.translatable("alinperspective.config.enable.player_rotate"), true).setConfig(AlinPerspective.config, "ENABLE.PLAYER_ROTATION"));
+                .addWidget(new ButtonBooleanBuilder(Component.translatable("alinperspective.config.enable"), false).setConfig(AlinPerspective.config, "ENABLE")
+                        .setActive(false)
+                        .setDescription(Component.translatable("alinperspective.config.enable.description")))
+                .addWidget(new ButtonBooleanBuilder(Component.translatable("alinperspective.config.enable.player_rotate"), true).setConfig(AlinPerspective.config, "ENABLE.PLAYER_ROTATION")
+                        .setDescription(Component.translatable("alinperspective.config.enable.player_rotate.description")));
         return builder.build();
     }
 }

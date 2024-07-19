@@ -1,9 +1,14 @@
 {
   "alinperspective": "AlinPerspective",
+
+  "modmenu.descriptionTranslation.alinperspective": "Mod that allows you to rotate the camera 360° from third person",
+
   "alinperspective.toggle": "Toggle Mode",
   "alinperspective.rotatePlayer": "Rotate Player",
 
   "alinperspective.config": "Configuration",
   "alinperspective.config.enable": "Enable Mod",
-  "alinperspective.config.enable.player_rotate": "Enable Player Rotation"
+  "alinperspective.config.enable.description": "This parameter is enabled by pressing the assigned key in the game",
+  "alinperspective.config.enable.player_rotate": "Enable Player Rotation",
+  "alinperspective.config.enable.player_rotate.description": "This parameter enables the ability to rotate the player when a certain key is pressed"
 }
