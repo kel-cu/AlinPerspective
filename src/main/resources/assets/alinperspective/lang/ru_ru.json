@@ -10,5 +10,6 @@
   "alinperspective.config.enable": "Включить мод",
   "alinperspective.config.enable.description": "Этот параметр включается нажатием назначенной клавиши в игре",
   "alinperspective.config.enable.player_rotate": "Включить вращение игрока",
-  "alinperspective.config.enable.player_rotate.description": "Этот параметр включает возможность поворота игрока при нажатии определенной клавиши"
+  "alinperspective.config.enable.player_rotate.description": "Этот параметр включает возможность поворота игрока при нажатии определенной клавиши",
+  "alinperspective.config.who_am_i": "Кто я?"
 }

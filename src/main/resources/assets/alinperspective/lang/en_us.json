@@ -10,5 +10,6 @@
   "alinperspective.config.enable": "Enable Mod",
   "alinperspective.config.enable.description": "This parameter is enabled by pressing the assigned key in the game",
   "alinperspective.config.enable.player_rotate": "Enable Player Rotation",
-  "alinperspective.config.enable.player_rotate.description": "This parameter enables the ability to rotate the player when a certain key is pressed"
+  "alinperspective.config.enable.player_rotate.description": "This parameter enables the ability to rotate the player when a certain key is pressed",
+  "alinperspective.config.who_am_i": "Who am I?"
 }
