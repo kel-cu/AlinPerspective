@@ -18,6 +18,6 @@ public class LivingEntityRendererMixin {
             cancellable = true
     )
     private void viewOwnLabel(LivingEntity ent, double d, CallbackInfoReturnable<Boolean> ci) {
-        if (ent == AlinLib.MINECRAFT.getCameraEntity() && AlinPerspective.config.getBoolean("WHO_AM_I", false)) ci.setReturnValue(Minecraft.renderNames());
+        if (ent == AlinLib.MINECRAFT.getCameraEntity() && AlinPerspective.config.getBoolean("WHO_AM_I", false)) ci.setReturnValue(!Minecraft.getInstance().gui.hud.isHidden());
     }
 }

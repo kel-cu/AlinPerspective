@@ -21,15 +21,15 @@ public class CameraMixin {
     @Shadow
     private float xRot;
 
-    @Inject(method = "setup", at= @At(value = "INVOKE", target = "Lnet/minecraft/client/Camera;move(FFF)V", ordinal = 0))
-    public void setup$move(Level level, Entity entity, boolean bl, boolean bl2, float f, CallbackInfo ci){
+    @Inject(method = "alignWithEntity", at= @At(value = "INVOKE", target = "Lnet/minecraft/client/Camera;move(FFF)V", ordinal = 0))
+    public void setup$move(float partialTicks, CallbackInfo ci){
         if(AlinPerspective.config.getBoolean("ENABLE", false)){
             this.yRot = AlinPerspective.cameraPitch;
             this.xRot = AlinPerspective.cameraYaw;
         }
     }
 
-    @ModifyArgs(method = "setup", at= @At(value = "INVOKE", target = "Lnet/minecraft/client/Camera;setRotation(FF)V", ordinal = 1))
+    @ModifyArgs(method = "alignWithEntity", at= @At(value = "INVOKE", target = "Lnet/minecraft/client/Camera;setRotation(FF)V", ordinal = 1))
     public void setup$setRotation(Args args){
         if(AlinPerspective.config.getBoolean("ENABLE", false)){
             args.set(0, AlinPerspective.cameraPitch);
